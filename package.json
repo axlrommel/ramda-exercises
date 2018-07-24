@@ -1,0 +1,43 @@
+{
+  "name": "ramda-exercises",
+  "version": "1.0.0",
+  "description": "ramda exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-core/register 'src/*.spec.js'",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axlrommel/ramda-exercises.git"
+  },
+  "keywords": [
+    "ramda"
+  ],
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "author": "axlrommel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axlrommel/ramda-exercises/issues"
+  },
+  "homepage": "https://github.com/axlrommel/ramda-exercises#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0"
+  }
+}
